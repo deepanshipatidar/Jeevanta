@@ -88,3 +88,4 @@ INSERT INTO doctors (id, name, specialization, hospital, experience, rating, pho
 (3, 'Dr. Rajesh Kumar', 'Neurologist', 'Apollo Brain Center', 20, 4.9, '+91-9876543212', 2000.00, 0),
 (4, 'Dr. Emily White', 'Pediatrician', 'Happy Kids Hospital', 5, 4.2, '+91-9876543213', 600.00, 1)
 ON DUPLICATE KEY UPDATE available=VALUES(available);
+
